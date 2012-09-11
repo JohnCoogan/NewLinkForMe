@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 New Link For Me
 ============
 
@@ -179,3 +180,9 @@ Lastly, add the following A records to your DNS management tool.
     75.101.163.44
     75.101.145.87
     174.129.212.2
+=======
+NewLinkForMe
+============
+
+Stumble Upon for Your Twitter Feed
+>>>>>>> 774d3379b5a0e1cc22b4fe72edf6829c4f414d37

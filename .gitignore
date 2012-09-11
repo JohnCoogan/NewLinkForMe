@@ -1,2 +1,32 @@
+<<<<<<< HEAD
 *.pyc
 venv
+=======
+*.py[co]
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+
+#Translations
+*.mo
+
+#Mr Developer
+.mr.developer.cfg
+>>>>>>> 774d3379b5a0e1cc22b4fe72edf6829c4f414d37
