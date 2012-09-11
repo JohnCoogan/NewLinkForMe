@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block css %}
+<link rel="stylesheet" href="/static/css/docs1.css">
+{% endblock %}
+
+{% block js %}
+<script src="/static/js/bootstrap-dropdown.js"></script>
+<script src="/static/js/bootstrap-button.js"></script>
+<script src="/static/js/bootstrap-transition.js"></script>
+<script src="/static/js/bootstrap-collapse.js"></script>
+{% endblock %}
+
+
+{% block main %}
+<!-- Main hero unit for a primary marketing message or call to action -->
+<div class="jumbotron masthead">
+	<div class="jumbocontainer">
+	  <h1>NewLink For.me</h1>
+	  <p>Stumble-upon for your Twitter feed.</p>
+	  <p><a href="{{ authurl }}" class="btn btn-primary btn-large">Try It!</a></p>
+	</div>
+</div>
+
+<div class="container threefacts">
+
+<!-- Example row of columns -->
+<div class="row">
+  <div class="span4">
+    <h2>Easy Reading</h2>
+    <h4>Surfing through a sea of Tweets every day is a hassle, skipping from one page directly to the next is much easier.</h4>
+  </div>
+  <div class="span4">
+    <h2>Full View</h2>
+    <h4>Instead of a 140 character blurb about the article, you see the content as the publisher intended it.</h4>
+ </div>
+  <div class="span4">
+    <h2>Topics</h2>
+    <h4>Sort links by topic or hash tag to stay focused on what you find most interesting. Never see a dull link again! Coming Soon!</h4>
+  </div>
+</div>
+
+</div> <!-- /container -->
+{% endblock %}

@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block css %}
+ <link rel="stylesheet" href="/static/css/docs1.css">
+{% endblock %}
+
+{% block js %}
+<script src="/static/js/bootstrap-dropdown.js"></script>
+<script src="/static/js/bootstrap-button.js"></script>
+<script src="/static/js/bootstrap-transition.js"></script>
+<script src="/static/js/bootstrap-collapse.js"></script>
+{% endblock %}
+
+
+{% block main %}
+<!-- Main hero unit for a primary marketing message or call to action -->
+<div class="jumbotron masthead">
+	<div class="jumbocontainer">
+	  <h1>Sorry!</h1>
+	  <p>Out of links right now... click here to refresh.</p>
+	  <p><a href="{{ userlink }}" class="btn btn-primary btn-large">Refresh</a></p>
+	  <p>Having fun...? Tell us on Twitter!</p>
+		<p><a href="https://twitter.com/johncoogan">@johncoogan</a> & 
+		<a href="https://twitter.com/dteln">@dteln</a></p>
+	</div>
+</div>
+{% endblock %}

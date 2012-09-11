@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block css %}
+ <link rel="stylesheet" href="/static/css/docs1.css">
+{% endblock %}
+
+{% block js %}
+<script src="/static/js/bootstrap-dropdown.js"></script>
+<script src="/static/js/bootstrap-button.js"></script>
+<script src="/static/js/bootstrap-transition.js"></script>
+<script src="/static/js/bootstrap-collapse.js"></script>
+{% endblock %}
+
+
+{% block main %}
+<!-- Main hero unit for a primary marketing message or call to action -->
+<div class="jumbotron masthead">
+	<div class="jumbocontainer">
+	  <p><a href="{{ userlink }}" class="btn btn-primary btn-large">Bookmark Me!</a></p>
+	  <p>This link can be used to automatically fetch your next twitter link. Drag it to your bookmarks bar now!</p>
+	</div>
+</div>
+{% endblock %}
